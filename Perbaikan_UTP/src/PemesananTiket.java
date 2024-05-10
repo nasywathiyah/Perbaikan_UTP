@@ -45,7 +45,7 @@ class PemesananTiket {
 
         // Menghitung total harga tiket
         double totalHarga = tiket.hitungTotalHarga(1); // Jumlah tiket selalu satu
-        // Generate kode booking random
+        // method Generate kode booking random yang sudah ada di kelas main
         String kodeBooking = Main.generateKodeBooking();
         // Mendapatkan tanggal pesanan menggunakan method yang sudah ada di kelas Main
         String tanggalPesanan = Main.getCurrentDate();
